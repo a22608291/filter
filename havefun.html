@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HaveFun</title>
+	<link rel="stylesheet" href="css/havefun.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<script src="js/lightbox-plus-jquery.min.js"></script>
+	<script src="js/havefun.js"></script>
+</head>
+<body>
+	<div class="header clearfix">
+		<a href="index.html"><h1>have fun</h1></a>
+
+		<div class="searchbox">
+			<button>
+				<i class="fa fa-search" aria-hidden="true"></i>
+			</button>
+			<input type="text" class="search-input" placeholder="Explore your own activities">
+		</div>
+	</div>
+	<div class="main">
+		<div class="sidebar">
+		  	<div class="location">
+		    	<h4>Location</h4>
+		    	<select name="" class="" id="">
+					<option value="" disabled selected>--選擇行政區--</option>
+					<option value="三民區">三民區</option>
+					<option value="內門區">內門區</option>
+					<option value="美濃區">美濃區</option>
+					<option value="大樹區">大樹區</option>
+					<option value="小港區">小港區</option>
+					<option value="六龜區">六龜區</option>
+					<option value="仁武區">仁武區</option>
+				</select>
+		  	</div>
+		  	<div class="date">
+			    <h4>Date</h4> 
+			    <div class="date-start"v>
+				    <label for="date-start" >from</label>
+				    <input type="date" placeholder="xxxx/yy/zz" id="date-start">
+				</div>
+			    <div class="date-finish">
+				    <label for="date-finish">to</label>
+		            <input type="date" placeholder="xxxx/yy/zz" id="date-finish">
+			    </div>
+		  	</div> 
+	  		<div class="Categories">
+	   			<h4>Categories</h4> 
+	    		<div>
+				    <input type="checkbox" id="check-all" >
+				    <label for="check-all">All</label>
+	    		</div>
+			    <div>
+				    <input type="checkbox" id="check-entertainment">
+				    <label for="check-entertainment">Entertainment</label>
+			    </div>
+			    <div>
+				    <input type="checkbox" id="check-food">
+				    <label for="check-food">Food</label>
+			    </div>
+			    <div>
+				    <input type="checkbox" id="check-learning">
+				    <label for="check-learning">Learning</label>
+			    </div>
+			    <div>
+				    <input type="checkbox" id="check-outdoor">
+				    <label for="check-outdoor">Outdoor</label>
+			    </div>
+	  		</div>
+	  	</div>
+		<div class="content">
+		    <h2>Showing <span>15</span> results by</h2>
+		    <ul class="content-filter">
+		    	<li class="purple">Koahsiung<i class="fa fa-times-circle-o" aria-hidden="true"></i></li>
+		    	<li class="purple">Entertainment<i class="fa fa-times-circle-o" aria-hidden="true"></i></li>
+		    </ul>
+		    <ul class="content-row clearfix">
+		    	<li>
+		    		<div class="content-row-img" style="background-image: url(img/content.png);"></div>
+		    		<div class="content-row-introduce">
+		    			<h3>Kogi Cosby sweater.</h3>    			
+		    			<p class="introduce">Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu. Curabitur fermentum suscipit est, tincidunt mattis lorem luctus id. Donec eget massa a diam condimentum pretium. Aliquam erat volutpat. Integer ut tincidunt orci. Etiam tristique, elit ut consectetur iaculis, metus lectus mattis justo, vel mollis eros neque quis augue. Sed lobortis ultrices lacus, a placerat metus rutrum sit amet. Aenean ut suscipit justo.</p>
+		    			<div>
+		    				<span class="placename">Ethan Foster</span>
+		    				<span class="tag">Entertainment</span>
+		    			</div>
+		    			<ul>
+		    				<li><i class="fa fa-map-marker" aria-hidden="true"></i><span>Kaohsiung City</span></li>
+		    				<li><i class="fa fa-calendar" aria-hidden="true"></i><span>2018/5/24 - 2018/5/31</span></li>
+		    			</ul>
+		    		</div>
+		    	</li>
+		    	<li>
+		    		<div class="content-row-img" style="background-image: url(img/content.png);"></div>
+		    		<div class="content-row-introduce">
+		    			<h3>Kogi Cosby sweater.</h3>    			
+		    			<p class="introduce">Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu. Curabitur fermentum suscipit est, tincidunt mattis lorem luctus id. Donec eget massa a diam condimentum pretium. Aliquam erat volutpat. Integer ut tincidunt orci. Etiam tristique, elit ut consectetur iaculis, metus lectus mattis justo, vel mollis eros neque quis augue. Sed lobortis ultrices lacus, a placerat metus rutrum sit amet. Aenean ut suscipit justo.</p>
+		    			<div>
+		    				<span class="placename">Ethan Foster</span>
+		    				<span class="tag">Entertainment</span>
+		    			</div>
+		    			<ul>
+		    				<li><i class="fa fa-map-marker" aria-hidden="true"></i><span>Kaohsiung City</span></li>
+		    				<li><i class="fa fa-calendar" aria-hidden="true"></i><span>2018/5/24 - 2018/5/31</span></li>
+		    			</ul>
+		    		</div>
+		    	</li>
+		    </ul>
+			<div class='page_no'>
+				<button class='page_prev'><a href='#'><p> « </p></a></button>
+				<div class='page_ul'>
+					<button id='page_1' class='page active'><a href='#'>1</a></button>
+					<button id='page_2' class='page'><a href='#'>2</a></button>
+					<button id='page_3' class='page'><a href='#'>3</a></button>
+					<button id='page_4' class='page'><a href='#'>4</a></
+				</div>
+				<button class='page_next'><a href='#'><p> » </p></a></button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
